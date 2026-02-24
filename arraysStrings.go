@@ -8,7 +8,7 @@ import "fmt"
 
 func changelocal(a [5]int) [5]int {
 	fmt.Println("inside function")
-	a[0] = 55 //this will not change original a means pass by value
+	a[0] = 555 //this will not change original a means pass by value
 	var b [5]int = a
 	return b
 }
